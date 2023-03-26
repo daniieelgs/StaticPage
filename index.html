@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><h1><a href="#">Sensation.</a></h1></div>
+        <div class="button-menu-responsive">
+            <div class="lines-button-menu">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="wrapper">
+        <div id="init">
+            <div class="description">
+                <p>
+                    Welcome to <span class="logo-mark">Sensation</span> Clean & Responsive HTML Template.<br>
+                    This intro text can be modified and is a good way to say hello to the visitor.
+                </p>
+            </div>
+            <div class="image-carrousel">
+                <figure bc="./images/init1.jpg">
+                    <figcaption>
+                        <h4 class="title-image">This is a caption</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rerum accusamus veritatis temporibus libero doloribus non odio sunt autem natus!</p>
+                    </figcaption>
+                </figure>
+
+                
+                <figure bc="./images/init2.jpg">
+                    <figcaption>
+                        <h4 class="title-image">This is an other caption</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rerum accusamus veritatis temporibus libero doloribus non odio sunt autem natus!</p>
+                    </figcaption>
+                </figure>
+
+                <figure bc="./images/init3.jpg">
+                    <figcaption>
+                        <h4 class="title-image">And an other caption</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rerum accusamus veritatis temporibus libero doloribus non odio sunt autem natus!</p>
+                    </figcaption>
+                </figure>
+
+            </div>
+            <div class="slide">
+            </div>
+        </div>
+
+        <div id="menu" class="border-paint">
+            <div class="menu-item">
+                <span class="order-number">1</span>
+                <div class="contain-menu-item">
+                    <h4 class="title-menu">Modern & Clean Desing</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rerum accusamus veritatis temporibus libero doloribus non odio sunt autem natus!</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <span class="order-number">2</span>
+                <div class="contain-menu-item">
+                    <h4 class="title-menu">Easy to Customize</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rerum accusamus veritatis temporibus libero doloribus non odio sunt autem natus!</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <span class="order-number">3</span>
+                <div class="contain-menu-item">
+                    <h4 class="title-menu">Responsive Template</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rerum accusamus veritatis temporibus libero doloribus non odio sunt autem natus!</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="works" class="border-paint row-galery">
+            <h3 class="title-container">Recent Work</h3>
+            <figure>
+                <img src="./images/work1.webp">
+                <figcaption>
+                    <h5>Architecute in Melbourne</h5>
+                    <p>Había una vez un barquito chiquitito</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./images/work2.jpg">
+                <figcaption>
+                    <h5>Architecute Desing</h5>
+                    <p>Que no sabía, que no sabía, que no sabía navegar.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./images/work3.jpg">
+                <figcaption>
+                    <h5>Building / Architecture</h5>
+                    <p>Pasaron un dos, tres, cuatro, cinco, seis semanas</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div id="under">
+            <div id="latest" class="border-paint row-galery">
+                <h3 class="title-container">Latest from blog</h3>
+                <figure>
+                    <img src="./images/latest1.jpg">
+                    <figcaption>
+                        <h5>Architecute in Melbourne</h5>
+                        <span class="time">March 16, 2012 / 12 comments</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rerum accusamus veritatis temporibus libero doloribus non odio sunt autem natus!</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/latest2.jpg">
+                    <figcaption>
+                        <h5>Mountain Landscape</h5>
+                        <span class="time">March 16, 2012 / 12 comments</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rerum accusamus veritatis temporibus libero doloribus non odio sunt autem natus!</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/latest3.jpg">
+                    <figcaption>
+                        <h5>Vintage Beaca</h5>
+                        <span class="time">March 16, 2012 / 12 comments</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum rerum accusamus veritatis temporibus libero doloribus non odio sunt autem natus!</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div id="testimonials" class="border-paint">
+                <h3 class="title-container">Testimonials</h3>
+                <div class="buttons-move">
+                    <span class="button-move left-move"></span>
+                    <span class="button-move right-move"></span>
+                </div>
+                <div class="comment">
+                    <blockquote>
+                        Not comments yet
+                    </blockquote>
+                    <cite></cite>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/carrousel.js"></script>
+    <script src="js/comments.js"></script>
+
+</body>
+</html>

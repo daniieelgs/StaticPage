@@ -1,0 +1,27 @@
+{
+    "content":[
+        {
+            "username" : "Juan Pablo",
+            "rol" : "The ticher",
+            "comment" : "Había una vez un barquito chiquitito. Había una vez un barquito chiquitito. Que no sabía. Que no sabía. Que no sabía navegar"
+        },
+
+        {
+            "username" : "Daniel",
+            "rol" : "Estudiant",
+            "comment" : "Pasaron un, dos, tres, cuatro, cinco, seis semanas Pasaron un, dos, tres, cuatro, cinco, seis semanas <br>Y aquel barquito <br>Y aquel barquito <br>Y aquel barquito navegó"
+        },
+
+        {
+            "username" : "Isma",
+            "rol" : "Programmer",
+            "comment" : "Sol solet, vine'm a veure vine'm a veure sol solet vine'm a veure que tinc fred."
+        },
+
+        {
+            "username" : "Manuel",
+            "rol" : "Malageño",
+            "comment" : "Si tens fred posa't la capa posa't la capa si tens fred, posa't la capa i el barret. <br>No tinc capa ni barret, per abrigar-me, per abrigar-me no tinc capa ni barret, per abrigar-me quan fa fred!."
+        }
+    ]
+}

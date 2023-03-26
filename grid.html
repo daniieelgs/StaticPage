@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .grid-container {
+        display: grid;
+
+        /*grid-template-columns: repeat(
+          3,
+          minmax(300px, 500px)
+        ); /*Añadiendo como dimension un min-content, hacemos que las celdas se ajusten a su contenido pero ocupando lo menos posible lo menos posible
+                                                Si ponemos max-content, las celdas se adaptaran a su contenido también, pero ocupando el maximo posible
+                                                Con la funcion minmax() primero especificamos las dimensiones mínimas que tendrá la celda y luego las máximas, por ejemplo minmax(100px, 300px)*/
+
+        grid-template-columns: repeat(
+          auto-fill,
+          minmax(300px, 1fr)
+        ); /*Con la propiedad auto-fill, lo que le indicamos es que se genere la cantidad de columnas que pueda que cumplan con esa condicion, minimo 50px y maximo 100px
+                                                                    tambien está la auto-fit*/
+        grid-template-rows: 150px;
+        grid-auto-rows: 150px;
+        border: 3px solid black;
+        background-color: #333;
+      }
+
+      .grid-item {
+        border: 1px solid black;
+        background-color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem, voluptatibus omnis laboriosam doloremque veniam temporibus ut blanditiis, tempora eos nemo soluta error vero provident placeat harum eum molestias veritatis.</div>
+      <div class="grid-item aside">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet iure quaerat molestias. Suscipit temporibus sed sequi magni quae nam eum, soluta eos id atque similique, necessitatibus perspiciatis. Beatae, consectetur?</div>
+      <div class="grid-item main">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut recusandae omnis aliquam sit facilis? Ipsa eveniet, obcaecati saepe nobis inventore, eius iure reprehenderit fuga, rem recusandae odio illo earum porro?</div>
+      <div class="grid-item footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nemo quae maxime voluptatibus ex. Ratione quaerat, tempora voluptate dicta officia quos tenetur aut commodi aperiam, aliquam at deserunt iure aspernatur.</div>
+      <div class="grid-item footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nemo quae maxime voluptatibus ex. Ratione quaerat, tempora voluptate dicta officia quos tenetur aut commodi aperiam, aliquam at deserunt iure aspernatur.</div>
+
+    </div>
+  </body>
+</html>
